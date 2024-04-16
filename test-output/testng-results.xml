@@ -1,61 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-16T07:28:17 IST" name="Default suite" finished-at="2024-04-16T07:28:17 IST" duration-ms="58">
+  <suite started-at="2024-04-16T08:58:46 IST" name="Default suite" finished-at="2024-04-16T08:58:46 IST" duration-ms="66">
     <groups>
     </groups>
-    <test started-at="2024-04-16T07:28:17 IST" name="Default test" finished-at="2024-04-16T07:28:17 IST" duration-ms="58">
-      <class name="TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="beforeSuite" finished-at="2024-04-16T07:28:17 IST" duration-ms="7" status="PASS">
+    <test started-at="2024-04-16T08:58:46 IST" name="Default test" finished-at="2024-04-16T08:58:46 IST" duration-ms="66">
+      <class name="TestNgTutorials.TestNgTutorials.attributesInTestNG.PriorityAttribute">
+        <test-method signature="testMethod1()[pri:-1, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.PriorityAttribute@55b7a4e0]" started-at="2024-04-16T08:58:46 IST" name="testMethod1" finished-at="2024-04-16T08:58:46 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="beforeTest" finished-at="2024-04-16T07:28:17 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod8()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.PriorityAttribute@55b7a4e0]" started-at="2024-04-16T08:58:46 IST" name="testMethod8" finished-at="2024-04-16T08:58:46 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="beforeClass" finished-at="2024-04-16T07:28:17 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testMethod8 -->
+        <test-method signature="testMethod3()[pri:1, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.PriorityAttribute@55b7a4e0]" started-at="2024-04-16T08:58:46 IST" name="testMethod3" finished-at="2024-04-16T08:58:46 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="beforeMethod" finished-at="2024-04-16T07:28:17 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testMethod3 -->
+        <test-method signature="testMethod4()[pri:2, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.PriorityAttribute@55b7a4e0]" started-at="2024-04-16T08:58:46 IST" name="testMethod4" finished-at="2024-04-16T08:58:46 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test3_BootstrapListBox()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="test3_BootstrapListBox" finished-at="2024-04-16T07:28:17 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- testMethod4 -->
+        <test-method signature="testMethod5()[pri:3, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.PriorityAttribute@55b7a4e0]" started-at="2024-04-16T08:58:46 IST" name="testMethod5" finished-at="2024-04-16T08:58:46 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3_BootstrapListBox -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="afterMethod" finished-at="2024-04-16T07:28:17 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testMethod5 -->
+        <test-method signature="testMethod6()[pri:4, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.PriorityAttribute@55b7a4e0]" started-at="2024-04-16T08:58:46 IST" name="testMethod6" finished-at="2024-04-16T08:58:46 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="beforeMethod" finished-at="2024-04-16T07:28:17 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testMethod6 -->
+        <test-method signature="testMethod7()[pri:5, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.PriorityAttribute@55b7a4e0]" started-at="2024-04-16T08:58:46 IST" name="testMethod7" finished-at="2024-04-16T08:58:46 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test4_JQueryListBox()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="test4_JQueryListBox" finished-at="2024-04-16T07:28:17 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testMethod7 -->
+        <test-method signature="testMethod2()[pri:6, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.PriorityAttribute@55b7a4e0]" started-at="2024-04-16T08:58:46 IST" name="testMethod2" finished-at="2024-04-16T08:58:46 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4_JQueryListBox -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="afterMethod" finished-at="2024-04-16T07:28:17 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="afterClass" finished-at="2024-04-16T07:28:17 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="afterTest" finished-at="2024-04-16T07:28:17 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class@38c6f217]" started-at="2024-04-16T07:28:17 IST" name="afterSuite" finished-at="2024-04-16T07:28:17 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- TestNgTutorials.TestNgTutorials.configurationAnnotations.TestAnnotations_Class -->
+        </test-method> <!-- testMethod2 -->
+      </class> <!-- TestNgTutorials.TestNgTutorials.attributesInTestNG.PriorityAttribute -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
