@@ -3,18 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgTutorials.TestNgTutorials.attributesInTestNG.SettingPriorityFromXMLFile">
+      <class name="TestNgTutorials.TestNgTutorials.attributesInTestNG.TimeoutsAttribute">
         <methods>
-          <include name="testMethod6Test"/>
-          <include name="testMethod3Test"/>
-          <include name="testMethod4Test"/>
-          <include name="testMethod1Test"/>
-          <include name="testMethod5Test"/>
-          <include name="testMethod2Test"/>
-          <include name="testMethod7Test"/>
-          <include name="testMethod8Test"/>
+          <include name="timeouts"/>
         </methods>
-      </class> <!-- TestNgTutorials.TestNgTutorials.attributesInTestNG.SettingPriorityFromXMLFile -->
+      </class> <!-- TestNgTutorials.TestNgTutorials.attributesInTestNG.TimeoutsAttribute -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
