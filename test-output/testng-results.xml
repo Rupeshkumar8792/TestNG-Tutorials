@@ -1,42 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="10" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-18T09:19:42 IST" name="Suite" finished-at="2024-04-18T09:19:42 IST" duration-ms="56">
+  <suite started-at="2024-04-18T14:36:48 IST" name="Default suite" finished-at="2024-04-18T14:37:00 IST" duration-ms="12688">
     <groups>
-      <group name="windows.smoke">
-        <method signature="GroupAttributeWithRegularExpression.methodTest1()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression@402bba4f]" name="methodTest1" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression"/>
-      </group> <!-- windows.smoke -->
-      <group name="windows.sanity">
-        <method signature="GroupAttributeWithRegularExpression.methodTest10()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression@402bba4f]" name="methodTest10" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression"/>
-        <method signature="GroupAttributeWithRegularExpression.methodTest2()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression@402bba4f]" name="methodTest2" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression"/>
-        <method signature="GroupAttributeWithRegularExpression.methodTest5()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression@402bba4f]" name="methodTest5" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression"/>
-        <method signature="GroupAttributeWithRegularExpression.methodTest7()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression@402bba4f]" name="methodTest7" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression"/>
-      </group> <!-- windows.sanity -->
     </groups>
-    <test started-at="2024-04-18T09:19:42 IST" name="Test" finished-at="2024-04-18T09:19:42 IST" duration-ms="56">
-      <class name="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression">
-        <test-method signature="methodTest1()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression@402bba4f]" started-at="2024-04-18T09:19:42 IST" name="methodTest1" finished-at="2024-04-18T09:19:42 IST" duration-ms="8" status="PASS">
+    <test started-at="2024-04-18T14:36:48 IST" name="Default test" finished-at="2024-04-18T14:37:00 IST" duration-ms="12688">
+      <class name="TestNgTutorials.TestNgTutorials.attributesInTestNG.dependsOnMethod.DependsOnMethodAttribute">
+        <test-method signature="method1()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.dependsOnMethod.DependsOnMethodAttribute@6e171cd7]" started-at="2024-04-18T14:36:48 IST" name="method1" finished-at="2024-04-18T14:36:53 IST" duration-ms="5016" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodTest1 -->
-        <test-method signature="methodTest10()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression@402bba4f]" started-at="2024-04-18T09:19:42 IST" name="methodTest10" finished-at="2024-04-18T09:19:42 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.dependsOnMethod.DependsOnMethodAttribute@6e171cd7]" started-at="2024-04-18T14:36:53 IST" name="method2" finished-at="2024-04-18T14:37:00 IST" depends-on-methods="TestNgTutorials.TestNgTutorials.attributesInTestNG.dependsOnMethod.DependsOnMethodAttribute.method1" duration-ms="7617" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodTest10 -->
-        <test-method signature="methodTest2()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression@402bba4f]" started-at="2024-04-18T09:19:42 IST" name="methodTest2" finished-at="2024-04-18T09:19:42 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest2 -->
-        <test-method signature="methodTest5()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression@402bba4f]" started-at="2024-04-18T09:19:42 IST" name="methodTest5" finished-at="2024-04-18T09:19:42 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest5 -->
-        <test-method signature="methodTest7()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression@402bba4f]" started-at="2024-04-18T09:19:42 IST" name="methodTest7" finished-at="2024-04-18T09:19:42 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest7 -->
-      </class> <!-- TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeWithRegularExpression -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- method2 -->
+      </class> <!-- TestNgTutorials.TestNgTutorials.attributesInTestNG.dependsOnMethod.DependsOnMethodAttribute -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
