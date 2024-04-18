@@ -1,114 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="20" passed="19" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-18T07:11:45 IST" name="Suite" finished-at="2024-04-18T07:11:45 IST" duration-ms="77">
+  <suite started-at="2024-04-18T07:37:48 IST" name="Suite" finished-at="2024-04-18T07:37:48 IST" duration-ms="75">
     <groups>
+      <group name="all">
+        <method signature="GroupAttributeAtClassLevel.methodTest1()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest1" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest10()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest10" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest2()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest2" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest3()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest3" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest4()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest4" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest5()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest5" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest6()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest6" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest7()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest7" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest8()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest8" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest9()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest9" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+      </group> <!-- all -->
       <group name="functional">
-        <method signature="GroupsAttribute.methodTest10()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" name="methodTest10" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute"/>
-        <method signature="GroupsAttribute.methodTest2()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" name="methodTest2" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute"/>
-        <method signature="GroupsAttribute.methodTest4()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" name="methodTest4" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute"/>
-        <method signature="GroupsAttributes.methodTest12()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" name="methodTest12" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes"/>
-        <method signature="GroupsAttributes.methodTest14()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" name="methodTest14" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes"/>
-        <method signature="GroupsAttributes.methodTest20()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" name="methodTest20" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest10()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest10" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest2()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest2" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest4()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest4" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
       </group> <!-- functional -->
+      <group name="regression">
+        <method signature="GroupAttributeAtClassLevel.methodTest1()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest1" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+      </group> <!-- regression -->
       <group name="sanity">
-        <method signature="GroupsAttribute.methodTest3()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" name="methodTest3" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute"/>
-        <method signature="GroupsAttribute.methodTest5()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" name="methodTest5" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute"/>
-        <method signature="GroupsAttribute.methodTest6()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" name="methodTest6" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute"/>
-        <method signature="GroupsAttribute.methodTest7()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" name="methodTest7" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute"/>
-        <method signature="GroupsAttribute.methodTest8()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" name="methodTest8" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute"/>
-        <method signature="GroupsAttribute.methodTest9()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" name="methodTest9" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute"/>
-        <method signature="GroupsAttributes.methodTest11()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" name="methodTest11" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes"/>
-        <method signature="GroupsAttributes.methodTest13()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" name="methodTest13" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes"/>
-        <method signature="GroupsAttributes.methodTest15()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" name="methodTest15" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes"/>
-        <method signature="GroupsAttributes.methodTest16()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" name="methodTest16" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes"/>
-        <method signature="GroupsAttributes.methodTest17()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" name="methodTest17" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes"/>
-        <method signature="GroupsAttributes.methodTest18()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" name="methodTest18" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes"/>
-        <method signature="GroupsAttributes.methodTest19()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" name="methodTest19" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest3()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest3" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest5()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest5" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest6()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest6" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest7()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest7" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest8()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest8" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
+        <method signature="GroupAttributeAtClassLevel.methodTest9()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" name="methodTest9" class="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-04-18T07:11:45 IST" name="Test" finished-at="2024-04-18T07:11:45 IST" duration-ms="77">
-      <class name="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes">
-        <test-method signature="methodTest11()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" started-at="2024-04-18T07:11:45 IST" name="methodTest11" finished-at="2024-04-18T07:11:45 IST" duration-ms="6" status="PASS">
+    <test started-at="2024-04-18T07:37:48 IST" name="Test" finished-at="2024-04-18T07:37:48 IST" duration-ms="75">
+      <class name="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel">
+        <test-method signature="methodTest1()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" started-at="2024-04-18T07:37:48 IST" name="methodTest1" finished-at="2024-04-18T07:37:48 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodTest11 -->
-        <test-method signature="methodTest12()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" started-at="2024-04-18T07:11:45 IST" name="methodTest12" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest12 -->
-        <test-method signature="methodTest13()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" started-at="2024-04-18T07:11:45 IST" name="methodTest13" finished-at="2024-04-18T07:11:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest13 -->
-        <test-method signature="methodTest14()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" started-at="2024-04-18T07:11:45 IST" name="methodTest14" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest14 -->
-        <test-method signature="methodTest15()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" started-at="2024-04-18T07:11:45 IST" name="methodTest15" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest15 -->
-        <test-method signature="methodTest16()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" started-at="2024-04-18T07:11:45 IST" name="methodTest16" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest16 -->
-        <test-method signature="methodTest17()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" started-at="2024-04-18T07:11:45 IST" name="methodTest17" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest17 -->
-        <test-method signature="methodTest18()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" started-at="2024-04-18T07:11:45 IST" name="methodTest18" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest18 -->
-        <test-method signature="methodTest19()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" started-at="2024-04-18T07:11:45 IST" name="methodTest19" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest19 -->
-        <test-method signature="methodTest20()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes@f5ac9e4]" started-at="2024-04-18T07:11:45 IST" name="methodTest20" finished-at="2024-04-18T07:11:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodTest20 -->
-      </class> <!-- TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttributes -->
-      <class name="TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute">
-        <test-method signature="methodTest10()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" started-at="2024-04-18T07:11:45 IST" name="methodTest10" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- methodTest1 -->
+        <test-method signature="methodTest10()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" started-at="2024-04-18T07:37:48 IST" name="methodTest10" finished-at="2024-04-18T07:37:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTest10 -->
-        <test-method signature="methodTest2()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" started-at="2024-04-18T07:11:45 IST" name="methodTest2" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="methodTest2()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" started-at="2024-04-18T07:37:48 IST" name="methodTest2" finished-at="2024-04-18T07:37:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTest2 -->
-        <test-method signature="methodTest3()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" started-at="2024-04-18T07:11:45 IST" name="methodTest3" finished-at="2024-04-18T07:11:45 IST" duration-ms="2" status="PASS">
+        <test-method signature="methodTest3()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" started-at="2024-04-18T07:37:48 IST" name="methodTest3" finished-at="2024-04-18T07:37:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTest3 -->
-        <test-method signature="methodTest4()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" started-at="2024-04-18T07:11:45 IST" name="methodTest4" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="methodTest4()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" started-at="2024-04-18T07:37:48 IST" name="methodTest4" finished-at="2024-04-18T07:37:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTest4 -->
-        <test-method signature="methodTest5()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" started-at="2024-04-18T07:11:45 IST" name="methodTest5" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="methodTest5()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" started-at="2024-04-18T07:37:48 IST" name="methodTest5" finished-at="2024-04-18T07:37:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTest5 -->
-        <test-method signature="methodTest6()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" started-at="2024-04-18T07:11:45 IST" name="methodTest6" finished-at="2024-04-18T07:11:45 IST" duration-ms="2" status="PASS">
+        <test-method signature="methodTest6()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" started-at="2024-04-18T07:37:48 IST" name="methodTest6" finished-at="2024-04-18T07:37:48 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTest6 -->
-        <test-method signature="methodTest7()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" started-at="2024-04-18T07:11:45 IST" name="methodTest7" finished-at="2024-04-18T07:11:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="methodTest7()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" started-at="2024-04-18T07:37:48 IST" name="methodTest7" finished-at="2024-04-18T07:37:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTest7 -->
-        <test-method signature="methodTest8()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" started-at="2024-04-18T07:11:45 IST" name="methodTest8" finished-at="2024-04-18T07:11:45 IST" duration-ms="0" status="PASS">
+        <test-method signature="methodTest8()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" started-at="2024-04-18T07:37:48 IST" name="methodTest8" finished-at="2024-04-18T07:37:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTest8 -->
-        <test-method signature="methodTest9()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute@71809907]" started-at="2024-04-18T07:11:45 IST" name="methodTest9" finished-at="2024-04-18T07:11:45 IST" duration-ms="2" status="PASS">
+        <test-method signature="methodTest9()[pri:0, instance:TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel@402bba4f]" started-at="2024-04-18T07:37:48 IST" name="methodTest9" finished-at="2024-04-18T07:37:48 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTest9 -->
-      </class> <!-- TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupsAttribute -->
+      </class> <!-- TestNgTutorials.TestNgTutorials.attributesInTestNG.GroupAttributeAtClassLevel -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
