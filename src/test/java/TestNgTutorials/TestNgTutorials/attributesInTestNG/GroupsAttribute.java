@@ -21,7 +21,7 @@ public class GroupsAttribute {
 	 * }
 	 */
 
-	@Test(groups = { "sanity" })
+	@Test(groups = { "regression" })
 	private void methodTest1() {
 		System.out.println("Test Method 1");
 	}
