@@ -1,4 +1,4 @@
-package TestNgTutorials.TestNgTutorials.attributesInTestNG;
+package TestNgTutorials.TestNgTutorials.attributesInTestNG.groups;
 
 import org.testng.annotations.Test;
 
